@@ -125,7 +125,7 @@ class RealEstateAssistant:
             return f"An error occurred while processing your query: {str(e)}"
 
 def main():
-    api_key = "pcsk_5uU8T3_KakXgiejJDfQ26a93nLw8zfw9JEGmkAwsGY1iyURGerH8GLTBBTPpLHuNiKjH11"
+    api_key = ""
     index_name = "real-estate-descriptions"
     
     assistant = RealEstateAssistant(api_key, index_name)
